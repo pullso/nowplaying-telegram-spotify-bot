@@ -1,0 +1,29 @@
+{
+  "name": "spotify-telegram",
+  "version": "1.0.0",
+  "description": "Share your currently playing Spotify track in any Telegram chat",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "spotify",
+    "telegram",
+    "bot",
+    "music",
+    "sharing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+} 
