@@ -317,12 +317,12 @@ class SpotifyTelegramBot {
       <html>
         <body style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial;">
           <div style="text-align: center;">
-            <h2>✅ Authorization Successful!</h2>
+            <h2> Authorization Successful!</h2>
             <p>You can now:</p>
             <ul style="list-style: none; padding: 0;">
-              <li>• Use the /nowplaying command in any chat with the bot</li>
-              <li>• Type @your_bot_name in any chat to share the current track</li>
-              <li>• Just start typing @ and select the bot to share music</li>
+              <li> Use the /nowplaying command in any chat with the bot</li>
+              <li> Type @muznowbot in any chat to share the current track</li>
+              <li> Just start typing @ and select the bot to share music</li>
             </ul>
             <p>You can close this window and return to Telegram</p>
           </div>
@@ -337,7 +337,7 @@ class SpotifyTelegramBot {
       <html>
         <body style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial;">
           <div style="text-align: center;">
-            <h2>❌ Authorization Error</h2>
+            <h2> Authorization Error</h2>
             <p>Error: ${error}</p>
             <p>Please try again using the /start command in Telegram</p>
           </div>
