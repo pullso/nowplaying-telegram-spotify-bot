@@ -47,8 +47,8 @@ ${isPrivateChat ? '• Use the "Share Current Track" button below\n' : ''}1️�
 
 *Other methods:*
 • Use /nowplaying command
-• Mention @your_bot_name
-• Type @your_bot_name in any chat
+• Mention @muznowbot
+• Type @muznowbot in any chat
 
 *Tips:*
 • Works in private chats, groups and channels
@@ -71,7 +71,7 @@ Click the link below and grant access:\n${authUrl}
 After authorization, you can use the bot in any chat:
 1. Quick share: Just type @ and select the bot
 2. Command: /nowplaying
-3. Mention: @your_bot_name
+3. Mention: @muznowbot
 ${isPrivateChat ? '\n4. Use the quick button below' : ''}
 
 Use /help to see all commands and tips`;
