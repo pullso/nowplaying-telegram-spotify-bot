@@ -220,7 +220,7 @@ class SpotifyTelegramBot {
     const userId = msg.from.id.toString();
     const isPrivateChat = msg.chat.type === 'private';
     
-    const authUrl = this.spotifyService.createAuthUrl(['user-read-currently-playing', 'user-read-playback-state'], userId);
+    const authUrl = this.spotifyService.createAuthUrl(['user-read-currently-playing'], userId);
     const keyboard = isPrivateChat ? {
       keyboard: [[{ text: '🎵 Share Current Track' }]],
       resize_keyboard: true,
